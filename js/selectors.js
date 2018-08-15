@@ -19,3 +19,4 @@ function firstListItem()
 {
 return $("#pic-list li:first-child");
 }
+console.log(divSelector()); 
