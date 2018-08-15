@@ -13,8 +13,9 @@ function ninjaBabySelector()
 }
 function divSelector()
 {
-  return $(".pic:nth-child(1)")+$("img:last");
+  return $("#pic-list li:first-child")+$("img:last");
 }
 function firstListItem()
 {
-return $("#pic-list li:first-child");}
+return $("#pic-list li:first-child");
+}
