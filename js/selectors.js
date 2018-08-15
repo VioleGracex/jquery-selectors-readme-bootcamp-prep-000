@@ -13,7 +13,7 @@ function ninjaBabySelector()
 }
 function divSelector()
 {
-  return $("#cat")+$("#baby-ninja");
+  //return $("#cat")+$("#baby-ninja");
 }
 function firstListItem()
 {
