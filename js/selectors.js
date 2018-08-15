@@ -13,7 +13,7 @@ function ninjaBabySelector()
 }
 function divSelector()
 {
-  return $(".pic:nth-child(1)")+$(".pic:nth-child(2)");
+  return $(".pic:nth-child(1)")+$("img:last");
 }
 function firstListItem()
 {
