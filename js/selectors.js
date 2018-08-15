@@ -13,7 +13,7 @@ function ninjaBabySelector()
 }
 function divSelector()
 {
-  return $('div:last')+$("div:first-child");
+  return $('div:last-child')+$("div:first-child");
 }
 function firstListItem()
 {
