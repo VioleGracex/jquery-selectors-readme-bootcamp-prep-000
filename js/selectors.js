@@ -11,3 +11,7 @@ function ninjaBabySelector()
 {
  return $("img:baby-ninja");
 }
+function divSelector()
+{
+  return $(".pic:nth-child(1)")+$(".pic:nth-child(2)");
+}
